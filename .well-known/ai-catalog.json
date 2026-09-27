@@ -1,0 +1,39 @@
+{
+  "@context": "https://agenticresourcediscovery.org/context/v1",
+  "specVersion": "1.0",
+  "host": {
+    "name": "Enzoian GitHub Pages",
+    "url": "https://enzoian.github.io/"
+  },
+  "resources": [
+    {
+      "@id": "urn:air:enzoian.github.io:counselling:trabocco-rwe",
+      "displayName": "Vincenzo Iannone — Counselling in London",
+      "type": "application/json",
+      "url": "https://enzoian.github.io/vincenzo-counselling-test/capabilities/counselling-london.json",
+      "description": "Machine-readable resource describing Vincenzo Iannone's psychotherapeutic counselling service in London and online, in English and Italian.",
+      "capabilities": [
+        "psychotherapeutic-counselling",
+        "psychosynthesis",
+        "counselling-london",
+        "online-counselling",
+        "english",
+        "italian"
+      ],
+      "representativeQueries": [
+        "counsellor in London",
+        "find a counsellor in London",
+        "I need someone to talk to in London",
+        "therapist who speaks Italian in London",
+        "online counsellor UK"
+      ],
+      "metadata": {
+        "canonicalPage": "https://enzoian.github.io/vincenzo-counselling-test/",
+        "rwePage": "https://enzoian.github.io/vincenzo-counselling-test/rwe/",
+        "entity": "https://enzoian.github.io/vincenzo-counselling-test/entity/vincenzo.json",
+        "structuredData": "https://enzoian.github.io/vincenzo-counselling-test/structured-data/graph.json",
+        "openapi": "https://enzoian.github.io/vincenzo-counselling-test/openapi.json"
+      }
+    }
+  ]
+}
